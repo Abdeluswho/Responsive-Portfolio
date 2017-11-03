@@ -13,6 +13,7 @@ body{
 	
 .container{
 	width: 100%;
+	max-width: 980px;
 	margin: 0 auto;
 	clear: both;
 
@@ -192,6 +193,80 @@ input[type=submit] {
 	align-content: center;
 }
 
+	
+
+@media  screen and (max-width: 768px) {
+	.sidebar{
+	background-color: #ffffff;
+	padding: 30px;
+	width: 100%;
+	max-width: 650px;
+	border: 1px solid #dddddd;
+	margin-bottom: 20px;
+	margin-right: 80px;
+	float: left;
+	margin-left: 106px;
+	
+}
+	.mainpic{
+	width: 200px;
+	height: auto;
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}
+	
+}
+@media  screen and (max-width: 640px) {
+	#head{
+		position: static;
+		top: 0;
+		width: 100%;
+		margin-left: 0;
+		padding-right: 0;
+	}
+	nav  {
+		width: 100%;
+		float: left;
+
+	
+	}
+	nav a{
+		margin: 40px;
+	}
+	#nav{
+		padding-right: 0;
+	}
+
+	.sidebar{
+	
+	width: 90%;
+	margin-right: 20px;
+	float: left;
+	margin-left: 20px;
+	
+}
+.maincontainer{
+	width: 90%;
+	margin-right: 20px;
+	float: left;
+	margin-left: 20px;
+
+}
+.mainpic{
+	width: 400px;
+	height:auto;
+	margin-top: 10px;
+	float: left;
+	margin-right: 25px;
+}
+p{
+	margin-top: 20px;
+	float: left;
+}
+
+}
+	
 
 
 
